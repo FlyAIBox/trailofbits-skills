@@ -1,0 +1,14 @@
+# Example environment variables
+# Copy this file to .env and fill in the values
+
+# Database
+DATABASE_URL=postgresql://user:password@localhost:5432/userdb
+
+# JWT (IMPORTANT: Generate a secure random key in production)
+SECRET_KEY=your-super-secret-key-min-32-characters-long-CHANGE-THIS-IN-PRODUCTION
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=60
+
+# bcrypt
+BCRYPT_ROUNDS=12
+
